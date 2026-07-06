@@ -28,6 +28,12 @@ thing at all (and, increasingly, a legal requirement). Audit against real barrie
   `aria-live`; modals trap focus and restore it on close.
 - **Zoom/reflow**: usable at 200% zoom; no horizontal scroll from a fixed layout.
 
+### Minor (friction, not a barrier — the task still completes)
+- **Near-miss contrast**: slightly under the ratio on decorative or non-essential text
+  (body text under the ratio stays Serious).
+- **Faint focus ring**: a focus indicator that exists but is hard to spot — a missing one
+  is Blocking.
+
 ## Output
 
 ```

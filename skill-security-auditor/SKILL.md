@@ -5,8 +5,9 @@ description: Audit a third-party Claude/agent skill BEFORE installing it. Use wh
 
 # Skill Security Auditor
 
-Third-party skills run with your tools and your context. 36% of public skills carry
-prompt injection; most marketplaces have no signing or review. Audit before trust.
+Third-party skills run with your tools and your context. A significant share of publicly
+shared skills carry prompt-injection patterns; most marketplaces have no signing or review.
+Audit before trust.
 
 ## Inputs
 

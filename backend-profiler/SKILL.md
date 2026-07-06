@@ -15,7 +15,8 @@ evidence (timing, query logs, a profiler), fix that one, verify. Don't guess.
 - **The DB is the usual suspect**:
   - **N+1**: a query inside a loop (one query per row). → one join or `WHERE id IN (...)`.
     This is the single most common backend perf bug. Look for it first.
-  - Slow query → hand to EXPLAIN-driven optimization (missing index, seq scan, bad plan).
+  - Slow query → hand to the `sql-query-optimizer` skill (EXPLAIN-driven: missing index,
+    seq scan, bad plan).
   - Too many round trips → batch them.
 - **Blocking I/O on the hot path**: a synchronous external call, disk, or lock the request
   waits on. → make it async/parallel, move it off the request, or cache it.

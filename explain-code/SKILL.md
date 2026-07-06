@@ -27,17 +27,11 @@ gotchas — not a translation of each line into prose. Read the real code; don't
   that breaks", the historical weirdness. This is the highest-value part — it's what a newcomer can't see.
 - **Concrete example**: trace one real input through it. An example teaches faster than abstraction.
 
-## Don't
-
-- Restate obvious lines ("this loop iterates over the users") — that adds nothing.
-- Guess. If a name is misleading or intent is unclear, read what it actually does and say so
-  ("despite the name, this doesn't cache — it…"). Don't invent a rationale.
-
 ## Rules
 
-- Purpose and flow over line-by-line; explain what someone needs to work with the code.
-- Read the actual code; correct the misleading names rather than trusting them.
-- Match depth to the question — repo overview vs function detail are different asks.
+- Don't restate obvious lines ("this loop iterates over the users") — that adds nothing.
+- Don't guess. If a name is misleading or intent is unclear, read what it actually does and
+  say so ("despite the name, this doesn't cache — it…") — never invent a rationale.
 
 ## Output
 

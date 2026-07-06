@@ -77,7 +77,7 @@
         "path":  "openapi-writer/SKILL.md"
     },
     {
-        "slug":  "code-review",
+        "slug":  "code-reviewer",
         "name":  "Code Review",
         "tagline":  "Two passes on a diff — correctness bugs first, real cleanups second, zero style nitpicks. Every blocker carries a concrete failure scenario.",
         "category":  "code-quality",
@@ -88,7 +88,7 @@
                      "severity"
                  ],
         "version":  "1.0.0",
-        "path":  "code-review/SKILL.md"
+        "path":  "code-reviewer/SKILL.md"
     },
     {
         "slug":  "simplify-code",
@@ -211,7 +211,7 @@
     {
         "slug":  "guardrails-token-lean",
         "name":  "Guardrails (Token-Lean)",
-        "tagline":  "Do the task with the least waste and zero destructive surprises — effort calibrated to the stakes. Our signature discipline, as a skill.",
+        "tagline":  "Estimate the token bill before you spend it — right-size fan-out, model tier, and reads to the task, then stop once the returns flatten.",
         "category":  "dev-workflow",
         "tags":  [
                      "token-efficiency",

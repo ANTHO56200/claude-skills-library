@@ -68,7 +68,7 @@ A machine-readable index of the library ships as [`skills.json`](./skills.json).
 
 | Skill | What it does |
 |---|---|
-| [**Code Review**](code-review/SKILL.md) | Two passes on a diff — correctness bugs first, real cleanups second, zero style nitpicks. Every blocker carries a concrete failure scenario. |
+| [**Code Review**](code-reviewer/SKILL.md) | Two passes on a diff — correctness bugs first, real cleanups second, zero style nitpicks. Every blocker carries a concrete failure scenario. |
 | [**Simplify Code**](simplify-code/SKILL.md) | Cut dead code, over-abstraction and needless nesting — behavior preserved, prefer deletions. Knows what NOT to touch. |
 
 ### content  <sub>(1)</sub>
@@ -103,7 +103,7 @@ A machine-readable index of the library ships as [`skills.json`](./skills.json).
 
 | Skill | What it does |
 |---|---|
-| [**Guardrails (Token-Lean)**](guardrails-token-lean/SKILL.md) | Do the task with the least waste and zero destructive surprises — effort calibrated to the stakes. Our signature discipline, as a skill. |
+| [**Guardrails (Token-Lean)**](guardrails-token-lean/SKILL.md) | Estimate the token bill before you spend it — right-size fan-out, model tier, and reads to the task, then stop once the returns flatten. |
 | [**Plan Interrogator**](plan-interrogator/SKILL.md) | Stress-test any plan in max 3 bounded rounds — exit with a build-ready spec, not an endless interview. |
 | [**Refactor (Behavior-Preserving)**](refactor-behavior-preserving/SKILL.md) | Restructure code without changing behavior, proven green by tests, scoped to what you touched. No bugfixes smuggled into a 'cleanup'. |
 | [**Systematic Debugging**](systematic-debugging/SKILL.md) | Reproduce → isolate → prove the cause → fix the root. Triages trivial bugs fast, goes deep only when needed. Ships drop-in instrumentation. |

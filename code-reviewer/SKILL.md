@@ -1,5 +1,5 @@
 ---
-name: code-review
+name: code-reviewer
 description: Review a diff for correctness bugs and cleanup opportunities, with severity and file:line anchors. Use on a pull request, a working diff, or when asked to "review this code", "check my changes". Two passes — correctness first, then reuse/simplicity — never style nitpicks.
 ---
 
@@ -16,7 +16,8 @@ For each changed hunk, ask:
 - **Error paths**: what happens when the call fails? Swallowed error? Partial write? No rollback?
 - **Contracts**: return shape matches callers; async actually awaited; resources closed.
 - **Regressions**: does this break an existing caller or assumption? Check the call sites.
-- **Security**: user input reaching a query/shell/HTML sink (hand off to security-review if deep).
+- **Security**: user input reaching a query/shell/HTML sink (hand off to the
+  `security-review-code` skill if deep).
 
 ## Pass 2 — Reuse & simplicity (only real wins)
 

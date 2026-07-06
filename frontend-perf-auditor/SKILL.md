@@ -30,16 +30,12 @@ moves the number, verify it moved. Optimizing the wrong thing is wasted effort w
 - **Network**: parallelize independent requests, cache, prefetch the likely-next, don't block
   first paint on non-critical data.
 
-## Verify
-
-Re-measure the same metric after the change. If it didn't move, revert — you added complexity
-for nothing. Chase the biggest bottleneck, not a 2% win while a 2 MB bundle sits there.
-
 ## Rules
 
-- No profile/measurement, no fix. Never optimize on a hunch.
-- Fix the biggest bottleneck first; micro-optimizing around a huge one is theater.
-- Re-measure to confirm; keep only changes that actually moved the metric.
+- No measurement, no fix — a hunch is not a bottleneck.
+- Re-measure the same metric after the change; if it didn't move, revert — you added
+  complexity for nothing.
+- Chase the biggest bottleneck, not a 2% win while a 2 MB bundle sits there.
 
 ## Output
 
