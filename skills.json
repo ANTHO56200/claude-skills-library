@@ -1,0 +1,667 @@
+[
+    {
+        "slug":  "prompt-engineer",
+        "name":  "Prompt Engineer",
+        "tagline":  "Reliable LLM output from structure + examples + guardrails, not magic words — with an explicit out for uncertainty. Iterate on evidence.",
+        "category":  "ai-llm",
+        "tags":  [
+                     "prompt-engineering",
+                     "llm",
+                     "few-shot",
+                     "reliability",
+                     "hallucination"
+                 ],
+        "version":  "1.0.0",
+        "path":  "prompt-engineer/SKILL.md"
+    },
+    {
+        "slug":  "llm-eval-designer",
+        "name":  "LLM Eval Designer",
+        "tagline":  "Turn \u0027it feels better\u0027 into a number — real varied cases, programmatic-first judging, per-dimension baseline, regression suite for a non-deterministic system.",
+        "category":  "ai-llm",
+        "tags":  [
+                     "eval",
+                     "llm",
+                     "testing",
+                     "llm-as-judge",
+                     "regression"
+                 ],
+        "version":  "1.0.0",
+        "path":  "llm-eval-designer/SKILL.md"
+    },
+    {
+        "slug":  "rag-designer",
+        "name":  "RAG Designer",
+        "tagline":  "End-to-end RAG that returns grounded answers — semantic chunking, hybrid retrieval + re-rank, grounded generation, separate eval. Retrieval-first. A comprehensive skill.",
+        "category":  "ai-llm",
+        "tags":  [
+                     "rag",
+                     "retrieval",
+                     "embeddings",
+                     "chunking",
+                     "grounding",
+                     "llm"
+                 ],
+        "version":  "1.0.0",
+        "path":  "rag-designer/SKILL.md"
+    },
+    {
+        "slug":  "rest-api-designer",
+        "name":  "REST API Designer",
+        "tagline":  "Consistent, predictable REST — noun resources, right status codes, one error shape, cursor pagination, versioned. Boring beats clever.",
+        "category":  "api-design",
+        "tags":  [
+                     "rest",
+                     "api",
+                     "http",
+                     "status-codes",
+                     "pagination",
+                     "versioning"
+                 ],
+        "version":  "1.0.0",
+        "path":  "rest-api-designer/SKILL.md"
+    },
+    {
+        "slug":  "openapi-writer",
+        "name":  "OpenAPI Writer",
+        "tagline":  "A complete OpenAPI spec grounded in the real endpoints — every response status, reusable schemas, real examples. Not a half-spec.",
+        "category":  "api-design",
+        "tags":  [
+                     "openapi",
+                     "swagger",
+                     "api-docs",
+                     "spec",
+                     "validation"
+                 ],
+        "version":  "1.0.0",
+        "path":  "openapi-writer/SKILL.md"
+    },
+    {
+        "slug":  "code-review",
+        "name":  "Code Review",
+        "tagline":  "Two passes on a diff — correctness bugs first, real cleanups second, zero style nitpicks. Every blocker carries a concrete failure scenario.",
+        "category":  "code-quality",
+        "tags":  [
+                     "code-review",
+                     "correctness",
+                     "pull-request",
+                     "severity"
+                 ],
+        "version":  "1.0.0",
+        "path":  "code-review/SKILL.md"
+    },
+    {
+        "slug":  "simplify-code",
+        "name":  "Simplify Code",
+        "tagline":  "Cut dead code, over-abstraction and needless nesting — behavior preserved, prefer deletions. Knows what NOT to touch.",
+        "category":  "code-quality",
+        "tags":  [
+                     "simplification",
+                     "readability",
+                     "dead-code",
+                     "quality"
+                 ],
+        "version":  "1.0.0",
+        "path":  "simplify-code/SKILL.md"
+    },
+    {
+        "slug":  "newsletter-writer",
+        "name":  "Newsletter Writer",
+        "tagline":  "Inbox-first email that gets opened and read — one message, one CTA, 3 A/B subject variants, brand voice controls. Not SEO content.",
+        "category":  "content",
+        "tags":  [
+                     "newsletter",
+                     "email",
+                     "copywriting",
+                     "a-b-testing",
+                     "cta"
+                 ],
+        "version":  "1.0.0",
+        "path":  "newsletter-writer/SKILL.md"
+    },
+    {
+        "slug":  "notebook-structurer",
+        "name":  "Notebook Structurer",
+        "tagline":  "Make an analysis notebook reproducible — Restart \u0026 Run All clean, narrative order, no hidden state, dead cells gone.",
+        "category":  "data",
+        "tags":  [
+                     "jupyter",
+                     "notebook",
+                     "reproducibility",
+                     "analysis",
+                     "data-science"
+                 ],
+        "version":  "1.0.0",
+        "path":  "notebook-structurer/SKILL.md"
+    },
+    {
+        "slug":  "data-cleaner",
+        "name":  "Data Cleaner",
+        "tagline":  "Clean a dataset without silently corrupting it — profile first, log every transform, keep the original, reconcile row counts.",
+        "category":  "data",
+        "tags":  [
+                     "data",
+                     "cleaning",
+                     "validation",
+                     "pandas",
+                     "missing-values"
+                 ],
+        "version":  "1.0.0",
+        "path":  "data-cleaner/SKILL.md"
+    },
+    {
+        "slug":  "sql-query-optimizer",
+        "name":  "SQL Query Optimizer",
+        "tagline":  "EXPLAIN-driven, not folklore: read the plan, fix the expensive node, verify it moved. Recommends only indexes the planner will use.",
+        "category":  "database",
+        "tags":  [
+                     "sql",
+                     "performance",
+                     "explain",
+                     "index",
+                     "postgres"
+                 ],
+        "version":  "1.0.0",
+        "path":  "sql-query-optimizer/SKILL.md"
+    },
+    {
+        "slug":  "db-migration-auditor",
+        "name":  "DB Migration Auditor",
+        "tagline":  "Catch the outage on paper: data loss, table locks, breaking renames, missing RLS — before the migration runs. Postgres/Supabase-aware.",
+        "category":  "database",
+        "tags":  [
+                     "migration",
+                     "ddl",
+                     "postgres",
+                     "supabase",
+                     "rls",
+                     "pre-prod"
+                 ],
+        "version":  "1.0.0",
+        "path":  "db-migration-auditor/SKILL.md"
+    },
+    {
+        "slug":  "plan-interrogator",
+        "name":  "Plan Interrogator",
+        "tagline":  "Stress-test any plan in max 3 bounded rounds — exit with a build-ready spec, not an endless interview.",
+        "category":  "dev-workflow",
+        "tags":  [
+                     "planning",
+                     "spec",
+                     "requirements",
+                     "pre-code"
+                 ],
+        "version":  "1.0.0",
+        "path":  "plan-interrogator/SKILL.md"
+    },
+    {
+        "slug":  "refactor-behavior-preserving",
+        "name":  "Refactor (Behavior-Preserving)",
+        "tagline":  "Restructure code without changing behavior, proven green by tests, scoped to what you touched. No bugfixes smuggled into a \u0027cleanup\u0027.",
+        "category":  "dev-workflow",
+        "tags":  [
+                     "refactoring",
+                     "simplification",
+                     "architecture",
+                     "behavior-preserving"
+                 ],
+        "version":  "1.0.0",
+        "path":  "refactor-behavior-preserving/SKILL.md"
+    },
+    {
+        "slug":  "guardrails-token-lean",
+        "name":  "Guardrails (Token-Lean)",
+        "tagline":  "Do the task with the least waste and zero destructive surprises — effort calibrated to the stakes. Our signature discipline, as a skill.",
+        "category":  "dev-workflow",
+        "tags":  [
+                     "token-efficiency",
+                     "safety",
+                     "behavioral",
+                     "guardrails"
+                 ],
+        "version":  "1.0.0",
+        "path":  "guardrails-token-lean/SKILL.md"
+    },
+    {
+        "slug":  "systematic-debugging",
+        "name":  "Systematic Debugging",
+        "tagline":  "Reproduce → isolate → prove the cause → fix the root. Triages trivial bugs fast, goes deep only when needed. Ships drop-in instrumentation.",
+        "category":  "dev-workflow",
+        "tags":  [
+                     "debugging",
+                     "root-cause",
+                     "triage",
+                     "instrumentation"
+                 ],
+        "version":  "1.0.0",
+        "path":  "systematic-debugging/SKILL.md"
+    },
+    {
+        "slug":  "tdd-workflow",
+        "name":  "TDD Workflow",
+        "tagline":  "Red-green-refactor with a gate that blocks code before its failing test exists — light enough for a single function.",
+        "category":  "dev-workflow",
+        "tags":  [
+                     "tdd",
+                     "testing",
+                     "red-green-refactor",
+                     "gate"
+                 ],
+        "version":  "1.0.0",
+        "path":  "tdd-workflow/SKILL.md"
+    },
+    {
+        "slug":  "dockerfile-optimizer",
+        "name":  "Dockerfile Optimizer",
+        "tagline":  "Smaller, faster, safer images — multi-stage, manifest-before-source caching, non-root, no secrets in layers. Verified still-runs.",
+        "category":  "devops",
+        "tags":  [
+                     "docker",
+                     "dockerfile",
+                     "image-size",
+                     "multi-stage",
+                     "container-security"
+                 ],
+        "version":  "1.0.0",
+        "path":  "dockerfile-optimizer/SKILL.md"
+    },
+    {
+        "slug":  "iac-terraform-diagnostic",
+        "name":  "Terraform Diagnostic",
+        "tagline":  "Read the plan before you apply — catch destroy/replace of stateful resources, drift, and state traps. Diagnostic-first, not doc-dumping.",
+        "category":  "devops",
+        "tags":  [
+                     "terraform",
+                     "iac",
+                     "infrastructure",
+                     "plan",
+                     "drift",
+                     "state"
+                 ],
+        "version":  "1.0.0",
+        "path":  "iac-terraform-diagnostic/SKILL.md"
+    },
+    {
+        "slug":  "ci-pipeline-builder",
+        "name":  "CI/CD Pipeline Builder",
+        "tagline":  "Fast feedback, safe deploys — fail-fast stage order, lockfile-keyed caching, no leaked secrets, gated progressive delivery.",
+        "category":  "devops",
+        "tags":  [
+                     "ci-cd",
+                     "github-actions",
+                     "pipeline",
+                     "caching",
+                     "deploy",
+                     "secrets"
+                 ],
+        "version":  "1.0.0",
+        "path":  "ci-pipeline-builder/SKILL.md"
+    },
+    {
+        "slug":  "readme-writer",
+        "name":  "README Writer",
+        "tagline":  "A README a stranger can follow to running in minutes — grounded in the real code, updated incrementally, zero invented commands.",
+        "category":  "documentation",
+        "tags":  [
+                     "readme",
+                     "documentation",
+                     "onboarding",
+                     "diff-aware"
+                 ],
+        "version":  "1.0.0",
+        "path":  "readme-writer/SKILL.md"
+    },
+    {
+        "slug":  "changelog-writer",
+        "name":  "Changelog Writer",
+        "tagline":  "Turn commits/PRs into human-first release notes — breaking changes first, internal noise dropped, semver sanity-checked.",
+        "category":  "documentation",
+        "tags":  [
+                     "changelog",
+                     "release-notes",
+                     "semver",
+                     "keep-a-changelog"
+                 ],
+        "version":  "1.0.0",
+        "path":  "changelog-writer/SKILL.md"
+    },
+    {
+        "slug":  "responsive-layout-check",
+        "name":  "Responsive Layout Check",
+        "tagline":  "Catch the breakpoint failures before they ship — overflow, touch targets, media, layout shift — fixed at the layout level.",
+        "category":  "frontend",
+        "tags":  [
+                     "responsive",
+                     "mobile",
+                     "css",
+                     "layout",
+                     "breakpoints"
+                 ],
+        "version":  "1.0.0",
+        "path":  "responsive-layout-check/SKILL.md"
+    },
+    {
+        "slug":  "component-architecture",
+        "name":  "Component Architecture",
+        "tagline":  "Right-size a component — one responsibility, least state, composition over 15 boolean props. Fix the boundary, not the symptom.",
+        "category":  "frontend",
+        "tags":  [
+                     "components",
+                     "architecture",
+                     "props",
+                     "state",
+                     "composition"
+                 ],
+        "version":  "1.0.0",
+        "path":  "component-architecture/SKILL.md"
+    },
+    {
+        "slug":  "accessibility-audit",
+        "name":  "Accessibility Audit",
+        "tagline":  "WCAG audit that maps each barrier to a criterion and a concrete fix — keyboard, names, contrast, semantics, live regions.",
+        "category":  "frontend",
+        "tags":  [
+                     "accessibility",
+                     "a11y",
+                     "wcag",
+                     "screen-reader",
+                     "keyboard"
+                 ],
+        "version":  "1.0.0",
+        "path":  "accessibility-audit/SKILL.md"
+    },
+    {
+        "slug":  "git-flow",
+        "name":  "Git Flow",
+        "tagline":  "Conventional commits, PR descriptions and worktrees — with a validation gate that runs before you write history.",
+        "category":  "git",
+        "tags":  [
+                     "commits",
+                     "conventional-commits",
+                     "pull-requests",
+                     "worktrees",
+                     "validation"
+                 ],
+        "version":  "1.0.0",
+        "path":  "git-flow/SKILL.md"
+    },
+    {
+        "slug":  "explain-code",
+        "name":  "Explain Code",
+        "tagline":  "Purpose → flow → gotchas at the altitude you asked for — reads the real code, corrects misleading names, skips line-by-line noise.",
+        "category":  "learning",
+        "tags":  [
+                     "explain",
+                     "onboarding",
+                     "legacy-code",
+                     "understanding"
+                 ],
+        "version":  "1.0.0",
+        "path":  "explain-code/SKILL.md"
+    },
+    {
+        "slug":  "concept-explainer",
+        "name":  "Concept Explainer",
+        "tagline":  "Clear AND accurate — builds from what you know, one concrete anchor (and where it breaks), progressive depth, flags every simplification.",
+        "category":  "learning",
+        "tags":  [
+                     "explain",
+                     "learning",
+                     "eli5",
+                     "teaching",
+                     "mental-model"
+                 ],
+        "version":  "1.0.0",
+        "path":  "concept-explainer/SKILL.md"
+    },
+    {
+        "slug":  "mcp-builder",
+        "name":  "MCP Builder",
+        "tagline":  "Scaffold an MCP server with the patterns generators miss — auth, pagination, real errors, least-privilege — and ship it with a test.",
+        "category":  "meta",
+        "tags":  [
+                     "mcp",
+                     "server",
+                     "tools",
+                     "auth",
+                     "test"
+                 ],
+        "version":  "1.0.0",
+        "path":  "mcp-builder/SKILL.md"
+    },
+    {
+        "slug":  "skill-creator-secure",
+        "name":  "Skill Creator (Secure)",
+        "tagline":  "Write a focused, token-lean skill AND lint it for safety before shipping — the generator that doesn\u0027t produce vulnerable skills.",
+        "category":  "meta",
+        "tags":  [
+                     "skill-creator",
+                     "meta",
+                     "security-lint",
+                     "token-budget"
+                 ],
+        "version":  "1.0.0",
+        "path":  "skill-creator-secure/SKILL.md"
+    },
+    {
+        "slug":  "frontend-perf-auditor",
+        "name":  "Frontend Perf Auditor",
+        "tagline":  "Measure the waterfall/bundle/profile, fix the biggest bottleneck, verify it moved. No optimizing on hunches.",
+        "category":  "performance",
+        "tags":  [
+                     "performance",
+                     "frontend",
+                     "bundle-size",
+                     "load-time",
+                     "rendering"
+                 ],
+        "version":  "1.0.0",
+        "path":  "frontend-perf-auditor/SKILL.md"
+    },
+    {
+        "slug":  "backend-profiler",
+        "name":  "Backend Profiler",
+        "tagline":  "Find the one dominant cost — N+1, blocking I/O, hot path — with evidence, fix by leverage, verify under real load.",
+        "category":  "performance",
+        "tags":  [
+                     "performance",
+                     "backend",
+                     "n+1",
+                     "profiling",
+                     "latency"
+                 ],
+        "version":  "1.0.0",
+        "path":  "backend-profiler/SKILL.md"
+    },
+    {
+        "slug":  "memory-handoff",
+        "name":  "Memory / Handoff",
+        "tagline":  "Zero-infra file memory the next session picks up cold — persists decisions, constraints and gotchas, not what the repo already records.",
+        "category":  "productivity",
+        "tags":  [
+                     "memory",
+                     "handoff",
+                     "context",
+                     "zero-infra",
+                     "sessions"
+                 ],
+        "version":  "1.0.0",
+        "path":  "memory-handoff/SKILL.md"
+    },
+    {
+        "slug":  "env-doctor",
+        "name":  "Env Doctor",
+        "tagline":  "\u0027Works on my machine\u0027, fixed: checks version → deps → env vars → ports → paths in order, and diffs against CI when local breaks but CI passes.",
+        "category":  "productivity",
+        "tags":  [
+                     "environment",
+                     "setup",
+                     "works-on-my-machine",
+                     "ci",
+                     "diagnosis"
+                 ],
+        "version":  "1.0.0",
+        "path":  "env-doctor/SKILL.md"
+    },
+    {
+        "slug":  "task-estimator",
+        "name":  "Task Estimator",
+        "tagline":  "Decompose until pieces are real, count the invisible work, give a range, name the unknown that makes it 3x. Estimate the work, not the deadline.",
+        "category":  "project-management",
+        "tags":  [
+                     "estimation",
+                     "planning",
+                     "breakdown",
+                     "risk",
+                     "project"
+                 ],
+        "version":  "1.0.0",
+        "path":  "task-estimator/SKILL.md"
+    },
+    {
+        "slug":  "decision-recorder",
+        "name":  "Decision Recorder (ADR)",
+        "tagline":  "Preserve WHY a decision was made and which alternatives were rejected — append-only ADRs so the reasoning survives the team.",
+        "category":  "project-management",
+        "tags":  [
+                     "adr",
+                     "architecture",
+                     "decision",
+                     "documentation",
+                     "rationale"
+                 ],
+        "version":  "1.0.0",
+        "path":  "decision-recorder/SKILL.md"
+    },
+    {
+        "slug":  "competitive-analysis",
+        "name":  "Competitive Analysis",
+        "tagline":  "Honest competitor teardown — includes where you LOSE, grounded in what rivals actually do, ends on the positioning gap.",
+        "category":  "research",
+        "tags":  [
+                     "competitive",
+                     "market-research",
+                     "positioning",
+                     "strategy"
+                 ],
+        "version":  "1.0.0",
+        "path":  "competitive-analysis/SKILL.md"
+    },
+    {
+        "slug":  "source-summarizer",
+        "name":  "Source Summarizer",
+        "tagline":  "A summary you can trust instead of the original — faithful to the real claims and caveats, adds nothing, flattens nothing.",
+        "category":  "research",
+        "tags":  [
+                     "summarize",
+                     "faithful",
+                     "distillation",
+                     "reading"
+                 ],
+        "version":  "1.0.0",
+        "path":  "source-summarizer/SKILL.md"
+    },
+    {
+        "slug":  "deep-research",
+        "name":  "Deep Research",
+        "tagline":  "Scope → fan out → adversarially verify every load-bearing claim → cited synthesis with confidence and dissent. A comprehensive research harness.",
+        "category":  "research",
+        "tags":  [
+                     "research",
+                     "fact-checking",
+                     "sources",
+                     "verification",
+                     "synthesis"
+                 ],
+        "version":  "1.0.0",
+        "path":  "deep-research/SKILL.md"
+    },
+    {
+        "slug":  "secrets-guardian",
+        "name":  "Secrets Guardian",
+        "tagline":  "Stop API keys, tokens and private keys from entering code, commits or logs — detect, triage false positives, and fix the pattern.",
+        "category":  "security",
+        "tags":  [
+                     "secrets",
+                     "credentials",
+                     "pre-commit",
+                     "leak-prevention"
+                 ],
+        "version":  "1.0.0",
+        "path":  "secrets-guardian/SKILL.md"
+    },
+    {
+        "slug":  "skill-security-auditor",
+        "name":  "Skill Security Auditor",
+        "tagline":  "Audit any third-party skill before you install it — prompt injection, exfiltration, dangerous commands. The check the marketplaces don\u0027t do.",
+        "category":  "security",
+        "tags":  [
+                     "supply-chain",
+                     "audit",
+                     "prompt-injection",
+                     "pre-install",
+                     "trust"
+                 ],
+        "version":  "1.0.0",
+        "path":  "skill-security-auditor/SKILL.md"
+    },
+    {
+        "slug":  "security-review-code",
+        "name":  "Security Review (Code)",
+        "tagline":  "Vulnerability review of a diff with executable sweeps + OWASP/CWE mapping. Findings ranked by demonstrated exploit, each with a concrete fix.",
+        "category":  "security",
+        "tags":  [
+                     "vulnerability",
+                     "owasp",
+                     "cwe",
+                     "code-review",
+                     "pre-ship"
+                 ],
+        "version":  "1.0.0",
+        "path":  "security-review-code/SKILL.md"
+    },
+    {
+        "slug":  "test-generator",
+        "name":  "Test Generator",
+        "tagline":  "Tests that would actually catch a bug — derived from the contract, one behavior each, no coverage-gaming.",
+        "category":  "testing",
+        "tags":  [
+                     "testing",
+                     "unit-tests",
+                     "coverage",
+                     "contract"
+                 ],
+        "version":  "1.0.0",
+        "path":  "test-generator/SKILL.md"
+    },
+    {
+        "slug":  "e2e-test-writer",
+        "name":  "E2E Test Writer",
+        "tagline":  "End-to-end tests for the flows that matter — stable selectors, self-contained data, user-visible assertions.",
+        "category":  "testing",
+        "tags":  [
+                     "e2e",
+                     "playwright",
+                     "cypress",
+                     "user-flow",
+                     "integration"
+                 ],
+        "version":  "1.0.0",
+        "path":  "e2e-test-writer/SKILL.md"
+    },
+    {
+        "slug":  "flaky-test-detective",
+        "name":  "Flaky Test Detective",
+        "tagline":  "Kill intermittent test failures at the source — timing, shared state, clock/RNG, races — never with a retry band-aid.",
+        "category":  "testing",
+        "tags":  [
+                     "flaky",
+                     "testing",
+                     "non-determinism",
+                     "ci",
+                     "race-condition"
+                 ],
+        "version":  "1.0.0",
+        "path":  "flaky-test-detective/SKILL.md"
+    }
+]
